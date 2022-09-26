@@ -11,11 +11,11 @@
             </b-navbar-item>
         </template>
         <template #start>
-            <b-navbar-item tag="router-link" :to="{ path: '/' }">
+            <b-navbar-item tag="router-link" :to="{ path: '/cursos' }">
                 Home
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
-                Sobre
+            <b-navbar-item tag="router-link" :to="{ path: '/categorias' }">
+                Categorias
             </b-navbar-item>
         </template>
 
